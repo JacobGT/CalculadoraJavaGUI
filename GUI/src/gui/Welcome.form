@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="0" green="0" red="0" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="375" max="32767" attributes="0"/>
+              <Component id="exit" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="324" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="808" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="exit" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="ff" red="0" type="rgb"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Hola, y bienvenido a mi calculadora GUI en Java.&#xa;Al usar cosas como sen, cos, tan, ! u otras funciones&#xa;Primero debes ingresar el n&#xfa;mero, despues hacer click en la operacion deseada&#xa;Y de ultimo en el boton de igual &apos;=&apos;.&#xa;Gracias por usar mi calculadora.&#xa;                        (&quot;           ,aodObo,&quot; +&#xa;                       &quot;\u005cn        ,AMMMMP~~~~&quot; +&#xa;                       &quot;\u005cn     ,MMMMMMMMA.&quot; +&#xa;                       &quot;\u005cn  ,M;&apos;     `YV&apos;\u005cn&quot; +&#xa;                       &quot;  AM&apos; ,OMA,\u005cn&quot; +&#xa;                       &quot; AM|   `~VMM,.      .,ama,____,amma,..\u005cn&quot; +&#xa;                       &quot; MML      )MMMD   .AMMMMMMMMMMMMMMMMMMD.\u005cn&quot; +&#xa;                       &quot; VMMM    .AMMY&apos;  ,AMMMMMMMMMMMMMMMMMMMMD\u005cn&quot; +&#xa;                       &quot; `VMM, AMMMV&apos;  ,AMMMMMMMMMMMMMMMMMMMMMMM,                ,\u005cn&quot; +&#xa;                       &quot;  VMMMmMMV&apos;  ,AMY~~&apos;&apos;  &apos;MMMMMMMMMMMM&apos; &apos;~~             ,aMM\u005cn&quot; +&#xa;                       &quot;  `YMMMM&apos;   AMM&apos;        `VMMMMMMMMP&apos;_              A,aMMMM\u005cn&quot; +&#xa;                       &quot;   AMMM&apos;    VMMA. YVmmmMMMMMMMMMMML MmmmY          MMMMMMM\u005cn&quot; +&#xa;                       &quot;  ,AMMA   _,HMMMMmdMMMMMMMMMMMMMMMML`VMV&apos;         ,MMMMMMM\u005cn&quot; +&#xa;                       &quot;  AMMMA _&apos;MMMMMMMMMMMMMMMMMMMMMMMMMMA `&apos;          MMMMMMMM\u005cn&quot; +&#xa;                       &quot; ,AMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMa      ,,,   `MMMMMMM\u005cn&quot; +&#xa;                       &quot; AMMMMMMMMM&apos;~`YMMMMMMMMMMMMMMMMMMMMMMA    ,AMMV    MMMMMMM\u005cn&quot; +&#xa;                       &quot; VMV MMMMMV   `YMMMMMMMMMMMMMMMMMMMMMY   `VMMY&apos;  adMMMMMMM\u005cn&quot; +&#xa;                       &quot; `V  MMMM&apos;      `YMMMMMMMV.~~~~~~~~~,aado,`V&apos;&apos;   MMMMMMMMM\u005cn&quot; +&#xa;                       &quot;    aMMMMmv       `YMMMMMMMm,    ,/AMMMMMA,      YMMMMMMMM\u005cn&quot; +&#xa;                       &quot;    VMMMMM,,v       YMMMMMMMMMo oMMMMMMMMM&apos;    a, YMMMMMMM\u005cn&quot; +&#xa;                       &quot;    `YMMMMMY&apos;       `YMMMMMMMY&apos; `YMMMMMMMY     MMmMMMMMMMM\u005cn&quot; +&#xa;                       &quot;     AMMMMM  ,        ~~~~~,aooooa,~~~~~~      MMMMMMMMMMM\u005cn&quot; +&#xa;                       &quot;       YMMMb,d&apos;         dMMMMMMMMMMMMMD,   a,, AMMMMMMMMMM\u005cn&quot; +&#xa;                       &quot;        YMMMMM, A       YMMMMMMMMMMMMMY   ,MMMMMMMMMMMMMMM\u005cn&quot; +&#xa;                       &quot;       AMMMMMMMMM        `~~~~&apos;  `~~~~&apos;   AMMMMMMMMMMMMMMM\u005cn&quot; +&#xa;                       &quot;       `VMMMMMM&apos;  ,A,                  ,,AMMMMMMMMMMMMMMMM\u005cn&quot; +&#xa;                       &quot;     ,AMMMMMMMMMMMMMMA,       ,aAMMMMMMMMMMMMMMMMMMMMMMMMM\u005cn&quot; +&#xa;                       &quot;   ,AMMMMMMMMMMMMMMMMMMA,    AMMMMMMMMMMMMMMMMMMMMMMMMMMMM\u005cn&quot; +&#xa;                       &quot; ,AMMMMMMMMMMMMMMMMMMMMMA   AMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\u005cn&quot; +&#xa;                       &quot;AMMMMMMMMMMMMMMMMMMMMMMMMAaAMMMMMMMMM            -JacobGT&quot;);&#xa;" containsInvalidXMLChars="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="exit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exitActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
